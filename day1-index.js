@@ -13,7 +13,8 @@ Example output: "I'M 😱 ALMOST 😱 OUT 😱 OF 😱 COFFEE!"
 */
 
 function panic(str){
-    return str.split(" ").join(" 😱 ").toUpperCase() + "!"
+    
+    return str.trim().split(" ").join(" 😱 ").toUpperCase() + "!"
 }
 // Test your function
 console.log(panic("I'm almost out of coffee")); 
