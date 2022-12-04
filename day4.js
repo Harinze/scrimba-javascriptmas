@@ -14,7 +14,7 @@ Hint: endsWith and slice
 */
  
 function whisper(sentence){
-    return sentence.endsWith("!") ? "shh... " + sentence.toLowerCase().slice(0, sentence.length - 1)
+    return sentence.endsWith("!") ? "shh... " + sentence.toLowerCase().slice(0, - 1)
     : "shh... " + sentence.toLowerCase();
 }
 
