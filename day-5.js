@@ -19,10 +19,9 @@ import products from "./day5-data.js";
 
 function getSaleItems(data){
     
-   return data.filter((value) => {return value.type === "sweet"}).map((sweet) => {
-       return {item: sweet.item, price: sweet.price}
-   })
+    return data.filter(value1 => value1.type === "sweet").map((value2) => ({item: value2.item,
+     price: value2.price}) 
+        
+ )};
  
-};
-
-console.log(getSaleItems(products))
+ console.log(getSaleItems(products))
