@@ -23,9 +23,9 @@ Example input: !htrae ot emocleW
 Example output: Welcome to earth!
 */  
 
-    //  function reverseString(str){
-    //    return str.split("").reverse().join("")
-    //       }
+     function reverseString(str){
+       return str.split("").reverse().join("")
+          }
 
 // OR
 
