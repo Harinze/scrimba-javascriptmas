@@ -1,17 +1,19 @@
-function countVowelConsonant(str) {
-    // write code here
-    const vowels = 'aeiou'
-    let sumOfLetters = 0;
-    str = str.toLowerCase().split("");
-    for(let i = 0; i < str.length; i++){
-        if(vowels.includes(str[i])){sumOfLetters ++}
-        else{sumOfLetters += 2}
-    }
-    return sumOfLetters
-  }
+// function countVowelConsonant(str) {
+//     // write code here
+//     const vowels = 'aeiou'
+//     let sumOfLetters = 0;
+//     str = str.toLowerCase().split("");
+//     for(let i = 0; i < str.length; i++){
+//         if(vowels.includes(str[i])){sumOfLetters ++}
+//         else{sumOfLetters += 2}
+//     }
+//     return sumOfLetters
+//   }
   console.log(countVowelConsonant("sumOfLetters"))
   
-  
+  function countVowelConsonant(str) {
+    return str.toLowerCase().split('').reduce((count,letter)=>letter.match(/[aeiouy]/)?count+=1:count+=2,0)
+  }
   
   /**
   * Test Suite 
