@@ -12,7 +12,7 @@ function insertDashes(arr) {
          for(let i = 0; i < arr.length; i++){
               arrOfDash.push(arr[i].split("").join("-"))
          }
-            const dashedStr = arrOfDash.join(" ")
+            const dashedStr = arrOfDash.join(" ")y
             return dashedStr
         }
 console.log(insertDashes("abe vvd"))
