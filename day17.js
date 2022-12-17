@@ -28,6 +28,14 @@ function flatten(arr){
   return [].concat.apply([], arr)
 }
 
+
+function flatten(arr){
+    let array = []
+  for(let i = 0; i < arr.length; i++){
+      array = array.concat(arr[i])
+      }
+   return array
+}
 // function flatten(arr){
 //   return arr.flat();
 // }
