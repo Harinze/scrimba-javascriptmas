@@ -1,8 +1,8 @@
-function insertDashes(arr) {
-    // write code here
-    const dashStr = arr.split("").join("-");
-         return dashStr.split("- -").join(" ");
-}
+// function insertDashes(arr) {
+//     // write code here
+//     const dashStr = arr.split("").join("-");
+//          return dashStr.split("- -").join(" ");
+// }
 
 
 function insertDashes(arr) {
