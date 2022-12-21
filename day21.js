@@ -22,14 +22,14 @@ Hint: Remainder operator, modulo
  */
 
 function awardBonuses(){
-    let rewardOrNot = ""
+    let bonusOrNot = ""
   for(let i = 1; i < 101; i++){
        // if(i !== 0){
-          if(i%5 === 0 && i%3 === 0){rewardOrNot = "JACKPOT! 1 Million and a Yacht!"}
-          else if(i%3 === 0){rewardOrNot = "Vacation!"}
-          else if(i%5 === 0){rewardOrNot = "100,000 bonus!"}
+          if(i%5 === 0 && i%3 === 0){bonusOrNot = "JACKPOT! 1 Million and a Yacht!"}
+          else if(i%3 === 0){bonusOrNot = "Vacation!"}
+          else if(i%5 === 0){bonusOrNot = "100,000 bonus!"}
           
-          else{rewardOrNot = ":("}
-          console.log(`${i} - ${rewardOrNot}`)//}
+          else{bonusOrNot = ":("}
+          console.log(`${i} - ${bonusOrNot}`)//}
     }}
 awardBonuses();
